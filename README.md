@@ -1,18 +1,13 @@
 # Laravel 6.0 基本のタスクリスト
 
-こちらのリポジトリをコピーしながら、順番に進める
+## 参考リポジトリ
 https://github.com/ucan-lab/laravel60-quickstart-basic
 
+## Laravelのインストール
 ```
-$ git clone git@github.com:ucan-lab/laravel60-quickstart-basic
-$ cd laravel60-quickstart-basic
-$ docker-compose up -d --build
-$ docker-compose exec app composer install
-$ docker-compose exec app cp .env.example .env
-$ docker-compose exec app php artisan key:generate
-$ docker-compose exec app php artisan migrate
+$ cd docker-laravel6
+$ docker-compose exec app ash
+$ composer create-project --prefer-dist "laravel/laravel=6.0.*" .
 ```
 
 http://127.0.0.1:10080
-
-![screenshot.png](screenshot.png)
