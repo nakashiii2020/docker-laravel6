@@ -8,6 +8,8 @@ https://github.com/ucan-lab/laravel60-quickstart-basic
 $ cd docker-laravel6
 $ docker-compose exec app ash
 $ composer create-project --prefer-dist "laravel/laravel=6.0.*" .
+$ docker-compose exec node ash
+$ npm install
 ```
 
 http://127.0.0.1:10080
